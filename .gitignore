@@ -1,0 +1,22 @@
+# NEVER commit these -----------------------------------------------
+# Your Canvas API token lives here. Anyone holding it can act as you.
+.canvas_export.json
+*.token
+.env
+
+# Exported course material: your university's copyright, and your own
+# graded work. Keep it off a public repo.
+*.zip
+canvas-wip/
+exports/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
